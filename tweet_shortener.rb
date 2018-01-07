@@ -14,9 +14,9 @@ def dictionary(el)
 
  if dict.keys.include?(el)
   return dict[el]
-elsif dict.keys.downcase(el)   
+ elsif dict.keys.downcase(el)
     return dict[el]
-else
+ else
     return el
   end
 end
