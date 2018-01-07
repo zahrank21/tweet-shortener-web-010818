@@ -9,7 +9,17 @@ def dictionary(el)
     'be' => 'b',
     'you' => 'u',
     "at" => "@" ,
-    "and" => "&"
+    "and" => "&",
+      "Hello" => 'hi',
+      "To" => '2',
+       "Two" => '2',
+       "Too" => '2',
+      "For" => '4',
+      "Four" => '4',
+      'Be' => 'b',
+      'You' => 'u',
+      "At" => "@" ,
+      "And" => "&"
   }
 
  if dict.keys.include?(el)
