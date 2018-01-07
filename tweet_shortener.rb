@@ -1,35 +1,37 @@
 def dictionary(el)
- dict = {
-   "hello" => 'hi',
-   "to" => '2',
-    "two" => '2',
-    "too" => '2',
-   "for" => '4',
-   "four" => '4',
-   'be' => 'b',
-   'you' => 'u',
-   "at" => "@" ,
-   "and" => "&"
- }
+  dict = {
+    "Hello" => 'hi',
+    "To" => '2',
+     "Two" => '2',
+     "Too" => '2',
+    "For" => '4',
+    "Four" => '4',
+    'Be' => 'b',
+    'You' => 'u',
+    "At" => "@" ,
+    "And" => "&"
+  }
 
- if dict.keys.include?(el.downcase)
+ if dict.keys.include?(el)
   return dict[el]
-  else
+elsif dict.keys.downcase(el)   
+    return dict[el]
+else
     return el
   end
 end
 
 dict = {
-  "hello" => 'hi',
-  "to" => '2',
-   "two" => '2',
-   "too" => '2',
-  "for" => '4',
-  "four" => '4',
-  'be' => 'b',
-  'you' => 'u',
-  "at" => "@" ,
-  "and" => "&"
+  "Hello" => 'hi',
+  "To" => '2',
+   "Two" => '2',
+   "Too" => '2',
+  "For" => '4',
+  "Four" => '4',
+  'Be' => 'b',
+  'You' => 'u',
+  "At" => "@" ,
+  "And" => "&"
 }
 def word_substituter(str)
   result = ""
