@@ -33,7 +33,7 @@ dict = {
 def word_substituter(str)
   result = ""
   word_arr = str.split
-  word_arr.each_with_index {|el|
+  word_arr.each_with_index {|el, idx|
     if idx == 0
       result << dictionary(el)
     else
