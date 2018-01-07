@@ -17,7 +17,7 @@ if ("a".."z").include?(el)
   else
     return el
   end
-else 
+else
   return el
 end
 end
