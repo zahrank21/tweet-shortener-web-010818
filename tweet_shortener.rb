@@ -11,7 +11,7 @@ def dictionary(el)
    "at" => "@" ,
    "and" => "&"
  }
- if dict.keys.include?(el)
+ if dict.keys.include?(el.downcase)
   return dict[el]
   else
     return el
