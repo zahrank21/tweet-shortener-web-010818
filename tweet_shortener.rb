@@ -15,7 +15,7 @@ def dictionary(el)
   return dict[el]
   else
     return el
-  end  
+  end
 end
 
 dict = {
@@ -33,7 +33,13 @@ dict = {
 def word_substituter(str)
   result = ""
   word_arr = str.split
-  if 
-  
+  word_arr.each_with_index {|el|
+    if idx == 0
+      result << dictionary(el)
+    else 
+      result << " " + dictionary(el)
+    end
+    }
 
+result 
 end
