@@ -46,15 +46,8 @@ end
 
 def bulk_tweet_shortener(arr)
 
-  result = ""
-  arr.each_with_index {|el, idx|
-    if idx == 0
-      result << dictionary(el)
-    else
-      result << " " + dictionary(el)
-    end
-    }
-
-puts result
+arr.each {|el|
+  puts word_substituter(el)
+}
 
 end
