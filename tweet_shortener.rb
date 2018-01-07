@@ -14,12 +14,12 @@ def dictionary(el)
 
  if dict.keys.include?(el)
   return dict[el]
-elsif condition
+else
 
     return el
   end
 end
-# 
+#
 # dict = {
 #   "Hello" => 'hi',
 #   "To" => '2',
