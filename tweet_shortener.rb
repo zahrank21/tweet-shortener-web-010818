@@ -36,10 +36,10 @@ def word_substituter(str)
   word_arr.each_with_index {|el|
     if idx == 0
       result << dictionary(el)
-    else 
+    else
       result << " " + dictionary(el)
     end
     }
 
-result 
+result
 end
