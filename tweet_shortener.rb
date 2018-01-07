@@ -43,3 +43,19 @@ def word_substituter(str)
 
 result
 end
+
+def bulk_tweet_shortener(str)
+
+  result = ""
+  word_arr = str.split
+  word_arr.each_with_index {|el, idx|
+    if idx == 0
+      result << dictionary(el)
+    else
+      result << " " + dictionary(el)
+    end
+    }
+
+puts result
+
+end
